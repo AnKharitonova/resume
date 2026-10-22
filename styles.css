@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+:root{--paper:#fbf5eb;--paper2:#fffaf3;--ink:#343b34;--muted:#73766b;--pink:#e9b8bc;--pink2:#f7e3e1;--sage:#dce4d3;--blue:#dce9ef;--yellow:#f5e4ad;--line:#e7dac8;--purple:#e9e0ef;--shadow:0 12px 35px #69563a12}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;font-size:16px;line-height:1.7;background-image:radial-gradient(#bda98c20 .7px,transparent .7px);background-size:13px 13px}a{color:inherit}.site-header{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:13px max(5vw,22px);background:#fbf5ebed;border-bottom:1px solid #e7dac8d9;backdrop-filter:blur(12px)}.brand{text-decoration:none;font-weight:700;white-space:nowrap}.brand-flower{color:#cc8b91;font-size:24px;vertical-align:middle;margin-right:6px}.nav{display:flex;gap:clamp(10px,1.8vw,25px);align-items:center}.nav a{text-decoration:none;font-size:13px;color:#686b60;transition:color .2s}.nav a:hover,.nav a.active{color:#a45e69}.menu-toggle{display:none;background:var(--paper2);border:1px solid var(--line);border-radius:12px;padding:8px 12px;color:var(--ink)}.section-wrap{width:min(1120px,90%);margin-inline:auto}.hero{min-height:650px;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:28px;padding-top:55px;padding-bottom:65px}.eyebrow,.section-kicker{display:block;text-transform:uppercase;letter-spacing:.12em;font-size:11px;font-weight:700;color:#a36e73}.hero h1,.memes-hero h1{font:600 clamp(44px,6vw,76px)/1.08 'Playfair Display',serif;letter-spacing:-.04em;margin:18px 0}.hero h1 em,.section-heading h2 em,.memes-hero h1 em{color:#b87b83;font-weight:500}.role{font-size:20px;font-weight:700;margin:22px 0 8px}.lead{max-width:500px;color:#66695e;font-size:17px}.hero-facts{display:flex;flex-wrap:wrap;gap:8px;margin:23px 0}.hero-facts span{font-size:12px;background:#fffaf3;border:1px solid var(--line);border-radius:50px;padding:6px 11px}.hero-actions,.contact-actions,.back-resume{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.button{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:14px;text-decoration:none;font-size:13px;font-weight:700;transition:transform .2s,box-shadow .2s}.button:hover{transform:translateY(-2px);box-shadow:var(--shadow)}.primary{background:#dba7ac;color:#392f30;border:1px solid #cf969d}.secondary{background:#fffaf3;border:1px solid var(--line)}.scribble{display:block;margin:25px 0 0 22px;color:#9c8273;font:italic 15px 'Playfair Display',serif;transform:rotate(-3deg)}.hero-art{position:relative;min-height:510px;display:flex;align-items:center;justify-content:center}.photo-frame{position:absolute;top:0;right:8%;width:43%;max-width:235px;padding:9px 9px 31px;background:#fffdf8;box-shadow:0 10px 24px #55453220;transform:rotate(5deg);z-index:2;border:1px solid #e7dac8}.portrait{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 35%}.photo-label{position:absolute;bottom:4px;left:0;width:100%;text-align:center;font:italic 14px 'Playfair Display',serif;color:#8b7770}.hero-illustration{width:100%;max-width:580px;border-radius:46% 44% 40% 38%;mix-blend-mode:multiply;margin-top:80px}.sticker{position:absolute;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;font-size:28px}.sticker-one{left:4%;top:22%;color:#c88d92;background:var(--pink2)}.sticker-two{right:5%;bottom:15%;color:#b58e4b;background:var(--yellow)}.section-block{padding-top:55px;padding-bottom:55px}.section-heading{position:relative;margin-bottom:28px}.section-heading h2,.contact-section h2{font:600 clamp(32px,4vw,47px)/1.15 'Playfair Display',serif;margin:8px 0 0}.heading-doodle{position:absolute;right:5%;top:0;color:#d4a3a4;font-size:35px}.about-card{background:#fffaf3d9;border:1px solid var(--line);border-radius:26px;padding:clamp(22px,4vw,45px);box-shadow:var(--shadow);position:relative}.about-card p{max-width:920px;margin:0 0 16px}.about-card p:last-of-type{margin-bottom:0}.margin-note{margin-top:28px;padding:13px 18px;border-left:3px solid #dba7ac;background:#f8e9e5;color:#80656a;border-radius:0 12px 12px 0;font:italic 15px 'Playfair Display',serif}.timeline{display:grid;gap:16px}.job-card{display:grid;grid-template-columns:190px 1fr;gap:25px;padding:26px;background:#fffaf3;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}.job-date{font-size:12px;color:#9b7074;font-weight:700;padding-top:5px}.job-card h3,.paper-card h3,.education-card h3{margin:0;font-size:19px}.company{margin:3px 0;color:#a36e73;font-weight:700}.job-context{margin:0 0 8px;color:var(--muted);font-size:13px}.job-card ul{padding-left:20px;margin:12px 0}.job-card li{padding:3px 0;color:#5f635a}.fact-strip{padding:10px 13px;border-radius:12px;background:var(--sage);font-size:12px;font-weight:700}.skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.paper-card{position:relative;background:#fffaf3;border:1px solid var(--line);border-radius:22px;padding:24px;min-height:220px}.paper-card:nth-child(2){background:#f7eeed}.paper-card:nth-child(3){background:#edf1e7}.card-icon{font-size:26px;color:#b77d83}.paper-card h3{margin:8px 0 17px}.chips{display:flex;flex-wrap:wrap;gap:7px}.chips span{background:#fffdf8;border:1px solid #e9dfd1;border-radius:50px;padding:5px 9px;font-size:11px}.small-note,.muted{font-size:12px;color:var(--muted)}.education-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.education-card{background:#fffaf3;border:1px solid var(--line);border-radius:22px;padding:26px}.education-card:first-child{background:#f0e9f4}.education-card:nth-child(2){background:#f7eddf}.edu-year{display:inline-block;background:#fffaf3;border-radius:50px;padding:3px 12px;color:#a36e73;font-weight:700;font-size:12px;margin-bottom:10px}.education-card p{margin:8px 0}.university{font-size:13px;color:#65695f;margin:18px 0}.language-card{display:flex;gap:22px;align-items:center;padding:18px 22px;background:var(--sage);border-radius:17px}.language-card>span{font-weight:700;color:#66735e}.language-card p{margin:0}.language-card i{font-style:normal;color:#bd8285;padding:0 10px}.contact-section{position:relative;display:grid;grid-template-columns:1fr 240px;align-items:center;gap:40px;padding:45px;margin-top:45px;margin-bottom:55px;background:#f5e7e3;border:1px solid #e8d2cd;border-radius:30px;overflow:hidden}.contact-section p{max-width:630px}.contact-meta{font-size:13px;font-weight:700}.contact-meta span{padding:0 10px;color:#bb8389}.contact-cat{width:100%;height:240px;object-fit:cover;object-position:center 58%;border:8px solid #fffaf3;border-radius:48% 48% 24px 24px;transform:rotate(3deg)}.contact-doodle{position:absolute;right:26%;top:20px;font-size:55px;color:#d7a2a4;opacity:.7}.contact-actions{margin-top:22px}.site-footer{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:24px 5%;border-top:1px solid var(--line);font-size:11px;color:#77766c}.site-footer a{text-decoration:none;color:#a36e73}.memes-page{padding-top:40px;padding-bottom:65px}.memes-hero{position:relative;min-height:330px;padding:40px 34% 35px 0}.memes-hero h1{font-size:clamp(45px,7vw,74px)}.memes-hero p{max-width:480px;color:#6c6d62}.memes-cat{position:absolute;right:5%;top:10px;width:26%;height:285px;object-fit:cover;object-position:center 40%;border:9px solid #fffaf3;box-shadow:var(--shadow);transform:rotate(4deg);border-radius:46% 46% 24px 24px}.doodle-note{position:absolute;right:0;bottom:6px;font:italic 14px 'Playfair Display',serif;color:#a36e73;transform:rotate(-5deg)}.meme-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.meme-card{overflow:hidden;background:#fffaf3;border:1px solid var(--line);border-radius:19px;box-shadow:var(--shadow);transition:transform .2s}.meme-card:hover{transform:translateY(-4px) rotate(-.3deg)}.meme-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#f0e8db}.meme-card .meme-caption{padding:15px 17px 18px}.meme-card h3{font:600 18px/1.3 'Playfair Display',serif;margin:0 0 7px}.meme-card p{font-size:13px;color:#66695e;margin:0}.meme-tag{display:inline-block;margin-bottom:9px;padding:3px 8px;border-radius:50px;background:var(--pink2);color:#95666b;font-size:10px;font-weight:700}.meme-footnote{font-size:12px;color:var(--muted);margin:25px 0}.back-resume{margin-top:20px}.memes-page .section-heading{margin-top:20px}.memes-page .section-heading h2{font-size:36px}code{font-size:.9em;background:#f0e8db;padding:2px 5px;border-radius:5px}a:focus-visible,button:focus-visible{outline:3px solid #a36e73;outline-offset:3px}::selection{background:#efd0d1}@media(max-width:850px){.site-header{flex-wrap:wrap}.menu-toggle{display:block}.nav{display:none;flex-basis:100%;flex-direction:column;align-items:stretch;padding:10px 0}.nav.open{display:flex}.nav a{padding:8px 10px;background:#fffaf3;border-radius:9px}.hero{grid-template-columns:1fr;padding-top:35px}.hero-art{min-height:400px}.hero-illustration{max-width:500px}.photo-frame{right:12%;width:34%}.skill-grid{grid-template-columns:1fr 1fr}.meme-grid{grid-template-columns:repeat(2,1fr)}.memes-hero{padding-right:32%}.memes-cat{width:28%}}@media(max-width:560px){.section-wrap{width:90%}.hero{gap:4px;min-height:unset}.hero h1{font-size:50px}.hero-art{min-height:310px;margin-top:10px}.hero-illustration{margin-top:35px}.photo-frame{width:34%;right:8%;top:-2px}.section-block{padding-top:35px;padding-bottom:35px}.job-card{grid-template-columns:1fr;gap:7px;padding:20px}.skill-grid,.education-grid,.meme-grid{grid-template-columns:1fr}.paper-card{min-height:unset}.contact-section{grid-template-columns:1fr;padding:27px;gap:10px}.contact-cat{width:160px;height:180px;justify-self:end;margin-top:10px}.contact-doodle{right:18%;top:30px}.language-card{align-items:flex-start;flex-direction:column;gap:3px}.site-footer{flex-wrap:wrap;justify-content:center;text-align:center}.memes-hero{padding:25px 0 300px}.memes-cat{top:auto;bottom:25px;left:7%;right:auto;width:52%;height:250px}.doodle-note{bottom:45px;right:0}.memes-page{padding-top:20px}.memes-page .section-heading h2{font-size:30px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* v3: one continuous portfolio landing page, with a clear portrait/illustration layout */
+.hero-art{min-height:unset;display:grid;grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr);align-items:center;gap:12px;overflow:visible}
+.portrait-wrap,.illustration-wrap{position:relative;min-width:0;display:flex;align-items:center;justify-content:center}
+.photo-frame{position:relative;top:auto;right:auto;width:100%;max-width:280px;padding:10px 10px 34px;transform:rotate(-2deg);z-index:1;border-radius:3px}
+.portrait{aspect-ratio:3/4;object-position:center 35%;border-radius:1px}
+.hero-illustration{position:relative;display:block;width:100%;max-width:none;margin:0;border-radius:0;mix-blend-mode:multiply;filter:saturate(.92)}
+.illustration-wrap{padding:12px 0}
+.sticker-one{left:-6px;top:10%}.sticker-two{right:0;bottom:12%}
+.photo-sparkle{position:absolute;top:-15px;right:0;color:#d4a1a7;font-size:30px;transform:rotate(15deg)}
+.education-card:first-child{background:#f0e9f4}.research-note{margin-top:14px!important;padding:11px 13px;border-left:3px solid #bc8c9a;background:#fffaf3b8;border-radius:0 12px 12px 0;font-size:13px;color:#655a60}
+.memes-section{position:relative;margin-top:15px;padding:52px 0 70px;border-top:1px dashed #d8c7b4}
+.memes-intro{max-width:640px;color:var(--muted);margin:12px 0 0}
+.meme-card{display:flex;flex-direction:column;min-width:0}
+.meme-card img{height:auto;aspect-ratio:auto;max-height:380px;object-fit:contain;padding:8px;background:#f8f0e5}
+.meme-card .meme-caption{flex:1;overflow-wrap:anywhere;word-break:normal}
+.meme-card h3,.meme-card p{overflow-wrap:anywhere;word-break:normal;white-space:normal;line-height:1.55}
+.meme-card p{max-width:100%}
+.floating-flower,.tiny-bee{position:fixed;z-index:1;pointer-events:none;user-select:none;opacity:.7;animation:floaty 5.5s ease-in-out infinite}
+.floating-flower{font-size:25px;color:#c98e9a;text-shadow:0 2px 0 #fff8}.flower-a{left:1.5%;top:31%}.flower-b{right:2%;top:68%;font-size:20px;color:#d2ae64;animation-delay:-2s}
+.tiny-bee{font-size:19px;filter:saturate(.8);animation:bee-drift 12s ease-in-out infinite}.bee-a{top:22%;right:3%}.bee-b{top:83%;left:3%;animation-delay:-6s}
+@keyframes floaty{0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(-11px) rotate(9deg)}}
+@keyframes bee-drift{0%,100%{transform:translate(0,0) rotate(-8deg)}25%{transform:translate(-12px,-8px) rotate(8deg)}50%{transform:translate(-3px,7px) rotate(-3deg)}75%{transform:translate(10px,-5px) rotate(10deg)}}
+@media(max-width:850px){.hero-art{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);min-height:unset}.photo-frame{width:100%;right:auto;top:auto}.hero-illustration{margin:0}.meme-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.hero-art{grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:5px;min-height:unset;margin-top:20px}.photo-frame{width:100%;max-width:none;padding:6px 6px 27px}.photo-label{font-size:12px}.hero-illustration{margin:0}.portrait-wrap{align-self:center}.illustration-wrap{align-self:center}.sticker{width:30px;height:30px;font-size:21px}.photo-sparkle{font-size:22px;right:-4px}.meme-grid{grid-template-columns:minmax(0,1fr);gap:15px}.meme-card{max-width:460px;margin-inline:auto;width:100%}.meme-card img{max-height:none;width:100%;object-fit:contain}.memes-section{padding-top:38px}.floating-flower{font-size:18px}.tiny-bee{font-size:15px}.flower-a{left:1%;top:42%}.flower-b{right:1%;top:74%}}
+@media(prefers-reduced-motion:reduce){.floating-flower,.tiny-bee{animation:none!important}}
+
+
+/* v4: sie4ka personal touches, bigger portrait, illustrated botanical ending */
+.brand{font-size:15px;letter-spacing:.01em}
+.brand::after{content:"";display:inline-block;width:8px;height:8px;margin-left:7px;border-radius:50%;background:#d99a57;box-shadow:0 0 0 3px #f2d8b5;vertical-align:middle}
+.hero{grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:28px}
+.hero-art{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:16px;align-items:center}
+.photo-frame{width:100%;max-width:360px;padding:12px 12px 38px;transform:rotate(-2deg)}
+.portrait{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 30%}
+.illustration-wrap{min-width:0;transform:translateY(5px)}
+.hero-illustration{width:112%;max-width:none;margin-left:-6%;height:auto;mix-blend-mode:multiply}
+.contact-links{display:flex;flex-direction:column;align-items:flex-start;gap:9px;margin:18px 0}
+.contact-links a{color:#4c5a75;text-decoration:none;border-bottom:1px dashed #d8b4a9;padding-bottom:3px;overflow-wrap:anywhere}
+.contact-links a:hover{color:#b16d78;transform:translateX(3px)}
+.education-grid-three{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}
+.research-card{background:#f9e6e7!important;border-color:#e6bdc2!important;position:relative;overflow:hidden}
+.research-card:after{content:"✿";position:absolute;right:14px;bottom:5px;font-size:34px;color:#d89aa5;opacity:.65;animation:flower-bob 4s ease-in-out infinite}
+.footer-garden{position:relative;width:100%;max-width:1280px;margin:0 auto;padding:0 2% 10px;min-height:150px;overflow:hidden}
+.footer-garden img{display:block;width:100%;height:auto;max-height:245px;object-fit:contain;object-position:center bottom}
+.footer-note{position:absolute;right:8%;bottom:27%;font:italic 15px/1.4 'Playfair Display',Georgia,serif;color:#9c707a;transform:rotate(-4deg);background:#fff9efcc;padding:7px 12px;border-radius:12px}
+.floating-flower{font-size:0!important;width:42px;height:52px;background:url('assets/flower-doodle.svg') center/contain no-repeat;text-shadow:none!important}
+.flower-b{width:54px;height:62px;background-image:url('assets/flower-doodle-large.svg')}
+.tiny-bee{font-size:0!important;width:45px;height:32px;background:url('assets/bee-doodle.svg') center/contain no-repeat;filter:none}
+.bee-b{width:35px;height:26px}
+@keyframes flower-bob{0%,100%{transform:rotate(-8deg) translateY(0)}50%{transform:rotate(8deg) translateY(-7px)}}
+@media(max-width:850px){.hero{grid-template-columns:1fr}.hero-art{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;max-width:720px;margin:12px auto 0}.photo-frame{max-width:360px}.hero-illustration{width:110%}.education-grid-three{grid-template-columns:1fr 1fr}.research-card{grid-column:1/-1}.footer-note{right:5%;bottom:15%;font-size:13px}}
+@media(max-width:560px){.hero-art{grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:7px;width:100%}.photo-frame{max-width:none;padding:7px 7px 28px}.portrait{aspect-ratio:3/4;object-position:center 28%}.hero-illustration{width:125%;margin-left:-12%}.education-grid-three{grid-template-columns:1fr}.research-card{grid-column:auto}.contact-links{font-size:14px}.footer-garden{min-height:90px;padding-bottom:0}.footer-garden img{width:150%;max-width:none;margin-left:-25%;max-height:160px}.footer-note{right:4%;bottom:12%;font-size:11px;max-width:145px}.floating-flower{width:29px;height:38px}.flower-b{width:37px;height:45px}.tiny-bee{width:31px;height:23px}}
+
+
+/* sie4ka edition: larger portrait, airy illustration layout, hand-drawn accents */
+.brand{font-family:'Playfair Display',serif;font-size:18px;color:#4a5572}
+.hero{grid-template-columns:.92fr 1.08fr;gap:18px}
+.hero-art{min-height:620px;align-self:stretch;overflow:visible}
+.photo-frame{left:0;right:auto;top:22px;width:48%;max-width:310px;padding:10px 10px 36px;transform:rotate(-3deg);z-index:3}
+.portrait{aspect-ratio:4/5;object-position:center 28%}
+.illustration-wrap{position:absolute;right:-2%;bottom:12px;width:76%;z-index:1}
+.hero-illustration{display:block;width:100%;max-width:none;margin:0;border-radius:0;mix-blend-mode:multiply}
+.photo-label{font-size:15px}
+.sticker-one{left:10%;top:19%;z-index:4}.sticker-two{right:0;bottom:8%;z-index:3}
+.drawn-flower{position:absolute;z-index:4;display:block;color:#d58c9b;font-family:Georgia,serif;line-height:1;text-shadow:1px 1px 0 #fff7e9,-1px 0 #e6b5a4;animation:flower-sway 4.5s ease-in-out infinite}
+.flower-large{font-size:52px}
+.flower-hero-a{left:-1%;top:10%;transform:rotate(-14deg)}
+.flower-hero-b{right:-2%;top:45%;color:#d8b45f;animation-delay:-2s}
+.floating-flower{position:fixed;z-index:8;pointer-events:none;font-family:Georgia,serif;text-shadow:1px 1px #fff7e9;animation:flower-sway 5s ease-in-out infinite}
+.flower-a{top:24%;left:1.4%;font-size:31px;color:#dba1a8}
+.flower-b{top:68%;right:1.6%;font-size:38px;color:#c9a6d6;animation-delay:-2s}
+.drawn-bee{position:absolute;z-index:5;width:30px;height:22px;display:block;font-size:0;pointer-events:none;animation:bee-float 6s ease-in-out infinite}
+.drawn-bee:before{content:"";position:absolute;width:17px;height:12px;left:6px;top:6px;border:1.5px solid #5b5144;border-radius:50%;background:repeating-linear-gradient(90deg,#f3d37b 0 4px,#5b5144 4px 6px,#f3d37b 6px 10px)}
+.drawn-bee:after{content:"";position:absolute;width:9px;height:7px;left:8px;top:0;border:1px solid #9ba9b0;border-radius:80% 80% 30% 80%;background:#f5fbf8;transform:rotate(-25deg);box-shadow:8px 1px 0 -1px #f5fbf8}
+.bee-a{top:35%;right:3%}.bee-b{top:78%;left:3%;animation-delay:-3s}.bee-hero{right:18%;top:8%;animation-delay:-1.5s}
+@keyframes flower-sway{0%,100%{rotate:-5deg;translate:0 0}50%{rotate:7deg;translate:0 -5px}}
+@keyframes bee-float{0%,100%{translate:0 0;rotate:-5deg}30%{translate:14px -11px;rotate:8deg}65%{translate:-5px 7px;rotate:-9deg}}
+.contact-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:14px;font-size:13px}
+.contact-links a{color:#725b66;text-decoration-thickness:1px;text-underline-offset:3px}
+.contact-links a:hover{color:#a45e69}
+.research-card{grid-column:1/-1;position:relative;background:#f8e7e8!important;border-color:#e7c6ca!important;padding-right:100px}
+.research-doodle{position:absolute;right:25px;top:30px;font-size:27px;color:#b77d83;transform:rotate(9deg)}
+.education-grid{grid-template-columns:1fr 1fr}
+.meme-grid{align-items:start}
+.meme-card{min-width:0;overflow:hidden}
+.meme-card img{display:block;width:100%;height:auto;max-height:430px;object-fit:contain;object-position:center;background:#fffaf3}
+.meme-caption{min-width:0;overflow-wrap:anywhere;word-break:normal;padding:15px 16px 18px}
+.meme-caption h3,.meme-caption p{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+.meme-caption p{line-height:1.55}
+.site-footer{position:relative;overflow:hidden}
+.site-footer:before{content:"";display:block;position:absolute;left:0;right:0;top:0;height:40px;opacity:.65;background-image:radial-gradient(circle at 20px 28px,#e4b4b5 0 3px,transparent 3.5px),radial-gradient(circle at 25px 23px,#e4b4b5 0 3px,transparent 3.5px),radial-gradient(circle at 30px 28px,#e4b4b5 0 3px,transparent 3.5px),radial-gradient(ellipse at 25px 32px,#a7b99c 0 3px,transparent 3.5px);background-size:70px 40px}
+.site-footer>*{position:relative}
+@media(max-width:800px){
+ .hero{grid-template-columns:1fr;padding-top:32px;gap:8px}
+ .hero-art{min-height:560px;width:100%;max-width:620px;margin:0 auto}
+ .photo-frame{left:2%;top:15px;width:48%;max-width:290px}
+ .illustration-wrap{right:0;bottom:10px;width:77%}
+ .hero-illustration{margin:0}
+ .flower-hero-a{left:0;top:6%}.flower-hero-b{right:0;top:46%}
+ .education-grid{grid-template-columns:1fr}
+ .research-card{grid-column:auto;padding-right:75px}
+}
+@media(max-width:520px){
+ .hero-art{min-height:440px}
+ .photo-frame{width:49%;padding:6px 6px 26px;top:12px}
+ .illustration-wrap{width:79%;right:-2%;bottom:0}
+ .flower-large{font-size:36px}
+ .hero h1{font-size:clamp(43px,13vw,62px)}
+ .contact-section{padding:25px}
+ .contact-links{flex-direction:column;gap:7px}
+ .floating-flower{font-size:24px}
+ .bee-b{left:0}
+ .meme-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .meme-caption{padding:11px}
+ .meme-caption h3{font-size:15px}
+ .meme-caption p{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}
+}
+
+
+/* sie4ka v4 — more breathing room, larger portrait, doodles and a single final meme room */
+.hero{grid-template-columns:.88fr 1.12fr;gap:24px}
+.hero-art{display:grid;position:relative;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(18px,3vw,34px);align-items:center;min-height:unset;overflow:visible;padding:18px 4px 28px}
+.portrait-wrap,.illustration-wrap{position:relative;min-width:0;display:flex;align-items:center;justify-content:center}
+.photo-frame{position:relative;inset:auto;width:100%;max-width:390px;padding:12px 12px 40px;transform:rotate(-2deg);z-index:2}
+.portrait{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 28%}
+.illustration-wrap{width:100%;transform:translateY(12px);padding:0;z-index:1}
+.hero-illustration{width:100%;max-width:none;margin:0;mix-blend-mode:multiply;border-radius:0}
+.photo-label{font-size:16px;bottom:5px}
+.sticker-one{left:-9px;top:18%;z-index:4}.sticker-two{right:-10px;bottom:10%;z-index:4}
+.section-kicker{text-transform:none;letter-spacing:.04em;font-size:12px}
+.memes-section{position:relative;margin-top:35px;padding:48px clamp(16px,3vw,36px) 35px;background:#f8eee4;border:1.5px dashed #d9c6ae;border-radius:34px;overflow:visible}
+.memes-section:before{content:"✿   ♡   ✿";position:absolute;right:25px;top:-22px;padding:5px 13px;background:var(--paper);border:1px solid var(--line);border-radius:24px;color:#b87b83;letter-spacing:.2em;transform:rotate(3deg)}
+.memes-section .section-heading{max-width:750px}
+.memes-intro{max-width:680px;color:#68695f}
+.meme-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:start}
+.meme-card{min-width:0;height:100%;overflow:hidden;display:flex;flex-direction:column;background:#fffaf3;border-radius:18px;transition:transform .28s ease,box-shadow .28s ease}
+.meme-card:hover{transform:translateY(-5px) rotate(-.25deg);box-shadow:0 15px 35px #69563a1c}
+.meme-card img{width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;object-position:center;background:#fffaf3;flex:0 0 auto}
+.meme-caption{min-width:0;overflow-wrap:anywhere;word-break:normal;flex:1;padding:14px 16px 18px}
+.meme-caption h3,.meme-caption p{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;hyphens:auto}
+.meme-caption h3{line-height:1.35;font-size:17px}
+.meme-caption p{line-height:1.55;font-size:13px}
+.meme-tag{white-space:normal;max-width:100%}
+.meme-footnote{text-align:center;font:italic 15px 'Playfair Display',Georgia,serif;color:#9c7a79;padding:12px 0 0}
+.footer-garden{min-height:180px;padding-top:8px;overflow:hidden}
+.footer-garden img{width:100%;max-height:240px}
+.footer-creatures{position:absolute;z-index:2;left:7%;right:7%;bottom:18px;display:flex;align-items:end;justify-content:space-between;pointer-events:none}
+.footer-creatures span{display:inline-block;font-size:clamp(23px,4vw,42px);filter:saturate(.78);animation:creature-bob 4s ease-in-out infinite}
+.footer-creatures span:nth-child(2n){animation-delay:-1.5s}.footer-creatures span:nth-child(3n){animation-delay:-2.5s}
+@keyframes creature-bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-8px) rotate(4deg)}}
+.garden-doodle{position:absolute;z-index:2;font-size:clamp(27px,3vw,42px);filter:saturate(.8);pointer-events:none;animation:creature-bob 5s ease-in-out infinite}
+.doodle-mushroom{top:7%;left:3%;transform:rotate(-12deg)}.doodle-frog{right:1%;top:47%;animation-delay:-2s}.doodle-cow{left:47%;bottom:-8px;font-size:clamp(24px,2.8vw,36px);animation-delay:-3s}
+.tiny-note{display:block;margin:8px 0 0 25px;color:#b08083;font:italic 14px 'Playfair Display',Georgia,serif;transform:rotate(2deg)}
+.inline-doodles{display:flex;justify-content:flex-end;align-items:center;gap:13px;margin-top:18px;font-size:28px;opacity:.9}
+.inline-doodles span{display:inline-block;animation:creature-bob 4s ease-in-out infinite}.inline-doodles span:nth-child(2){animation-delay:-1s}.inline-doodles span:nth-child(3){color:#d59ba3;animation-delay:-2s}
+.education-doodles{display:flex;justify-content:flex-end;gap:16px;margin-top:12px;font-size:24px;opacity:.8}.education-doodles span{animation:creature-bob 4.5s ease-in-out infinite}.education-doodles span:nth-child(2n){animation-delay:-2s}
+.bottom-doodle{position:relative;max-width:1100px;margin:0 auto;animation:garden-sway 7s ease-in-out infinite;transform-origin:center bottom}
+@keyframes garden-sway{0%,100%{translate:0 0}50%{translate:0 -2px}}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.hero-art{grid-template-columns:minmax(0,1fr) minmax(0,.9fr);max-width:800px;width:100%;margin:10px auto 0;gap:28px}.photo-frame{max-width:400px}.meme-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.hero-art{grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:12px;padding:12px 0 24px}.photo-frame{padding:7px 7px 28px}.portrait{aspect-ratio:3/4;object-position:center 28%}.photo-label{font-size:12px}.hero-illustration{width:100%;margin:0}.illustration-wrap{transform:translateY(8px)}.garden-doodle{font-size:25px}.doodle-mushroom{left:-5px;top:-5px}.doodle-frog{right:-5px;top:43%}.doodle-cow{left:44%;bottom:-10px}.memes-section{padding:35px 12px 25px;border-radius:23px;margin-top:20px}.meme-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.meme-caption{padding:10px}.meme-caption h3{font-size:14px}.meme-caption p{font-size:12px}.meme-tag{font-size:9px}.footer-garden{min-height:105px}.footer-garden img{width:140%;max-width:none;margin-left:-20%;max-height:150px}.footer-creatures{left:4%;right:4%;bottom:8px}.footer-creatures span{font-size:25px}.inline-doodles{font-size:22px}}
+@media(prefers-reduced-motion:reduce){.garden-doodle,.footer-creatures span,.inline-doodles span,.education-doodles span,.bottom-doodle{animation:none!important}}
+
+.footer-friends{position:absolute;z-index:3;left:0;right:0;bottom:0;width:100%;height:auto;max-height:175px;object-fit:contain;pointer-events:none}.footer-creatures{z-index:4}@media(max-width:560px){.footer-friends{width:130%;max-width:none;left:-15%;max-height:105px}.footer-creatures{display:none}}
+
+/* v5: consistent hand-drawn garden creatures and accessible meme zoom */
+.garden-doodle{width:clamp(48px,6vw,78px);height:auto;filter:none;object-fit:contain;animation:creature-bob 5s ease-in-out infinite}
+.doodle-mushroom{top:6%;left:2%;transform:rotate(-10deg)}.doodle-frog{right:1%;top:45%;animation-delay:-2s}.doodle-cow{left:47%;bottom:-8px;animation-delay:-3s}
+.inline-doodles img,.education-doodles img{width:42px;height:42px;object-fit:contain;animation:creature-bob 4s ease-in-out infinite}.inline-doodles img:nth-child(2),.education-doodles img:nth-child(2){animation-delay:-1.2s}.inline-doodles img:nth-child(3),.education-doodles img:nth-child(3){animation-delay:-2s}
+.footer-creatures img{display:block;width:clamp(42px,6vw,76px);height:auto;max-height:78px;object-fit:contain;animation:creature-bob 4s ease-in-out infinite}.footer-creatures img:nth-child(2n){animation-delay:-1.4s}.footer-creatures img:nth-child(3n){animation-delay:-2.4s}
+.meme-card .meme-image{cursor:zoom-in;transition:transform .2s}.meme-card .meme-image:hover{transform:scale(1.015)}.meme-card .meme-image:focus-visible{outline:3px solid #a36e73;outline-offset:-4px}
+.meme-zoom{align-self:flex-start;margin-top:12px;padding:7px 11px;border:1px solid #d9c6ae;border-radius:12px;background:#fff8ee;color:#8e6269;font:600 12px/1.4 inherit;cursor:pointer}.meme-zoom:hover{background:#f7e3e1}
+.meme-lightbox{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;flex-direction:column;gap:12px;padding:48px 20px 25px;background:rgba(35,32,29,.88);backdrop-filter:blur(5px)}.meme-lightbox.open{display:flex}.lightbox-content{display:flex;align-items:center;justify-content:center;gap:12px;max-width:96vw;max-height:78vh}.lightbox-content img{display:block;max-width:min(88vw,760px);max-height:76vh;width:auto;height:auto;object-fit:contain;background:#fffaf3;border-radius:5px;box-shadow:0 10px 35px #0005}.lightbox-content:has(img:nth-child(2)) img{max-width:min(44vw,600px)}.lightbox-caption{max-width:850px;margin:0;color:#fff8ee;text-align:center;font-size:14px}.lightbox-close{position:absolute;top:14px;right:20px;width:44px;height:44px;border:1px solid #fff8ee88;border-radius:50%;background:#fff8ee;color:#343b34;font-size:30px;line-height:1;cursor:pointer}
+@media(max-width:560px){.garden-doodle{width:44px}.doodle-mushroom{left:0;top:-5px}.doodle-frog{right:0;top:43%}.doodle-cow{left:44%;bottom:-10px}.footer-creatures img{width:35px;max-height:45px}.inline-doodles img,.education-doodles img{width:30px;height:30px}.lightbox-content:has(img:nth-child(2)){flex-direction:column;overflow:auto;max-height:75vh}.lightbox-content:has(img:nth-child(2)) img{max-width:88vw;max-height:34vh}.lightbox-content:not(:has(img:nth-child(2))) img{max-width:92vw;max-height:75vh}}
+@media(prefers-reduced-motion:reduce){.garden-doodle,.footer-creatures img,.inline-doodles img,.education-doodles img{animation:none!important}}
+
+/* v6: more wonky hand-drawn friends, a cat cameo and playful motion */
+.joke-note{display:inline-block;margin:16px 0 0 12px;padding:8px 13px;background:#fff3d6;border:1.5px dashed #d9b76c;border-radius:14px;color:#776246;font:italic 14px/1.5 'Playfair Display',Georgia,serif;transform:rotate(-1.5deg);animation:note-wiggle 5s ease-in-out infinite}
+@keyframes note-wiggle{0%,88%,100%{transform:rotate(-1.5deg)}92%{transform:rotate(1.5deg)}96%{transform:rotate(-2deg)}}
+.cat-side-note{display:grid;grid-template-columns:minmax(150px,235px) 1fr;gap:22px;align-items:center;max-width:850px;margin:26px auto 4px;padding:16px;background:#fffaf3;border:1.5px dashed #d8c5ad;border-radius:24px;transform:rotate(-.35deg);box-shadow:0 8px 20px #69563a0d}
+.cat-side-note img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 58%;border:7px solid #fffdf8;box-shadow:0 4px 12px #55453220;transform:rotate(2deg);border-radius:3px}
+.cat-side-note h3{margin:5px 0 8px;font:600 clamp(21px,3vw,30px)/1.2 'Playfair Display',Georgia,serif;color:#9b6c66}
+.cat-side-note p{margin:0;color:#68695f}.cat-signature{display:inline-block;margin-top:12px;color:#ad777e;font:italic 14px 'Playfair Display',Georgia,serif;transform:rotate(-2deg)}
+.doodle-snail{left:8%;top:66%;width:clamp(42px,5vw,66px);animation-delay:-1.8s}.doodle-duck{right:6%;top:15%;width:clamp(43px,5vw,68px);animation-delay:-3.2s}
+.doodle-snail,.doodle-duck{filter:drop-shadow(0 3px 1px #7a634010)}
+.footer-garden{position:relative}.footer-garden:before{content:"✿";position:absolute;left:13%;top:15px;color:#c99097;font-size:30px;animation:creature-bob 4.5s ease-in-out infinite}.footer-garden:after{content:"✧";position:absolute;right:15%;top:28px;color:#d6b15d;font-size:27px;animation:creature-bob 4s ease-in-out infinite reverse}
+.footer-friends{animation:creature-bob 6s ease-in-out infinite;transform-origin:center bottom}.footer-creatures img:nth-child(3n){transform:rotate(-5deg)}
+.meme-card:nth-child(4n+1){transform:rotate(-.25deg)}.meme-card:nth-child(4n+3){transform:rotate(.3deg)}.meme-card:nth-child(4n+1):hover,.meme-card:nth-child(4n+3):hover{transform:translateY(-5px) rotate(0)}
+@media(max-width:560px){.cat-side-note{grid-template-columns:100px 1fr;gap:13px;padding:11px;margin-top:20px}.cat-side-note img{border-width:5px;aspect-ratio:3/4}.cat-side-note p{font-size:13px;line-height:1.5}.cat-side-note h3{font-size:20px}.joke-note{margin-left:0;font-size:12px}.doodle-snail{left:1%;top:71%;width:38px}.doodle-duck{right:0;top:20%;width:39px}}
+@media(prefers-reduced-motion:reduce){.joke-note,.footer-friends,.footer-garden:before,.footer-garden:after{animation:none!important}}
+
+
+/* v7: correct meme pairing, more flying bees, clear footer and real Kit photo gallery */
+.cat-side-note{grid-template-columns:minmax(240px,1.15fr) minmax(220px,1fr);align-items:center}
+.kit-gallery{display:grid;grid-template-columns:1.1fr .9fr;grid-template-rows:145px 145px;gap:9px;min-width:0}
+.kit-gallery img{width:100%;height:100%;min-height:0;object-fit:cover;object-position:center;border:6px solid #fffdf8;box-shadow:0 4px 12px #55453220;background:#fffaf3}
+.kit-gallery img:first-child{grid-row:1/3;object-position:center 53%;transform:rotate(-1.5deg)}
+.kit-gallery img:nth-child(2){object-position:center 45%;transform:rotate(1deg)}
+.kit-gallery img:nth-child(3){object-position:center 50%;transform:rotate(-.7deg)}
+.kit-aside{margin-top:10px!important;font-size:13px;color:#8a7770}
+.drawn-bee{position:fixed;z-index:8;will-change:transform;animation:bee-flight 9s ease-in-out infinite}
+.bee-a{top:23%;right:4%}.bee-b{top:57%;left:2%;animation-delay:-3s}.bee-c{top:42%;left:23%;animation-delay:-5s;scale:.8}.bee-d{top:76%;right:18%;animation-delay:-6.5s;scale:1.15}.bee-e{top:12%;left:55%;animation-delay:-2s;scale:.75}
+@keyframes bee-flight{0%,100%{translate:0 0;rotate:-8deg}18%{translate:32px -18px;rotate:13deg}37%{translate:65px 8px;rotate:3deg}58%{translate:28px 27px;rotate:-14deg}78%{translate:-18px 6px;rotate:8deg}}
+.footer-garden{position:relative;isolation:isolate;min-height:190px;padding-top:8px;padding-bottom:0;overflow:hidden;z-index:0}
+.footer-garden>img:not(.footer-friends){display:block;position:relative;z-index:1;width:100%;max-height:190px;object-fit:contain;object-position:center bottom}
+.footer-friends{z-index:2;max-height:165px}
+.footer-creatures{z-index:3;bottom:7px}
+.footer-note{display:none!important}
+.footer-note-band{position:relative;z-index:5;display:block;width:min(900px,90%);margin:0 auto 10px;padding:12px 18px;text-align:center;color:#8d6d70;background:#fff8ed;border:1.5px dashed #d9c6ae;border-radius:16px;font:italic 15px/1.5 'Playfair Display',Georgia,serif;box-shadow:0 5px 16px #69563a0c}
+.bottom-doodle{z-index:0;pointer-events:none}
+.site-footer{position:relative;z-index:1;background:var(--paper);min-height:70px}
+@media(max-width:700px){.cat-side-note{grid-template-columns:1fr;gap:16px}.kit-gallery{grid-template-rows:130px 130px}.footer-garden{min-height:125px}.footer-garden>img:not(.footer-friends){max-height:125px}.footer-friends{max-height:105px}.footer-creatures{bottom:3px}.footer-note-band{font-size:13px;margin-bottom:12px}.bee-c{left:13%}.bee-d{right:7%}}
+
+/* v8: show all of Kit's face in every gallery photo; never crop the eyes */
+.kit-gallery img{object-fit:contain!important;object-position:center center!important;background:#f8f0e5;padding:3px;}
+.kit-gallery img:nth-child(2){object-position:center center!important;}
+@media(max-width:700px){.kit-gallery img{object-fit:contain!important;object-position:center center!important;}}
